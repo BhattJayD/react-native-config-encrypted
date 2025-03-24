@@ -1,7 +1,7 @@
 {
-  "name": "react-native-config-encrypted",
-  "version": "1.0.2",
-  "description": "React Native Config with encrypted values",
+  "name": "react-native-config-secure-encrypted",
+  "version": "1.6.0",
+  "description": "Secure fork of react-native-config-encrypted with crypto-js upgraded to fix vulnerabilities",
   "main": "./src/index.js",
   "scripts": {
     "lint": "eslint --report-unused-disable-directives src",
@@ -12,21 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-nation/react-native-config-encrypted.git"
+    "url": "git+https://github.com/BhattJayD/react-native-config-encrypted.git"
   },
   "keywords": [
     "react-native-config",
     "react-native-config-encrypted"
   ],
-  "author": "jamesjara",
+  "author": "jamesjara, maintained by BhattJayD",
   "license": "MIT",
   "bin": {
     "env-config-encrypt": "./src/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/react-native-nation/react-native-config-encrypted/issues"
+    "url": "https://github.com/BhattJayD/react-native-config-encrypted/issues"
   },
-  "homepage": "https://github.com/react-native-nation/react-native-config-encrypted#readme",
+  "homepage": "https://github.com/BhattJayD/react-native-config-encrypted#readme",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
