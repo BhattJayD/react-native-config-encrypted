@@ -1,6 +1,6 @@
 {
   "name": "react-native-config-secure-encrypted",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Secure fork of react-native-config-encrypted with crypto-js upgraded to fix vulnerabilities",
   "main": "./src/index.js",
   "scripts": {
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "react-native-config",
-    "react-native-config-encrypted"
+    "react-native-config-encrypted",
+    "react-native-config-secure-encrypted"
   ],
   "author": "jamesjara, maintained by BhattJayD",
   "license": "MIT",
